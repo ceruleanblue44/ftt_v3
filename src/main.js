@@ -1,7 +1,12 @@
+'use strict';
+
+import 'whatwg-fetch'
 import Vue from 'vue'
 import App from './App.vue'
+import './assets/normalize.css'
+import './assets/style.css'
 
-Vue.config.productionTip = false
+Vue.config.productionTip = true
 
 new Vue({
   render: h => h(App),
